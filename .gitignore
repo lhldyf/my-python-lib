@@ -1,0 +1,76 @@
+# db connection files
+*.ini
+
+# profiling data
+*.lprof
+
+.virtual_documents
+.DS_Store
+*.jsonl
+*.json
+*.db
+*.csv
+*.parquet
+env.sh
+**/.ipynb_checkpoints
+.vscode
+doc/_build
+doc/**/*.csv
+doc/**/*.db
+doc/**/*.sql
+doc/**/*.py
+examples/*.csv
+examples/*.db
+examples/*.sql
+# temp testing assets
+src/tests/tmp
+
+scripts/large-table.sql
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Pycharm
+/.idea
+
+.venv
+
+
+# Do not include test output of matplotlib
+result_images
+
+# Ignore Github codespace build artifact
+oryx-build-commands.txt
